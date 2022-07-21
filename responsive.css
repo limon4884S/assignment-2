@@ -1,0 +1,110 @@
+/* Tablete Device-------*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .sec-2 {
+        width: 100%;
+    }
+    .div-4 {
+        display: block;
+    }
+    .div-6 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #fff;
+    }
+    .div-6 a {
+        width: 60%;
+        border: 1px solid black;
+    }
+    .div-6 a:first-child {
+    background-color: #F3120B;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    }
+    .div-6 a:last-child {
+        display: block;
+        text-decoration: none;
+        background-color: #fff;
+        color: black;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .div-7 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 35px;
+    }
+    .div-8 a {
+       margin-left: 0;
+       width: 100%;
+    }
+    .div-8 img {
+        width: 100%;
+    }
+
+     .div-17 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 35px;
+    }
+
+}
+
+
+/* Mobile Device -----*/
+
+
+@media screen and (max-width: 767px){
+    .sec-1 {
+        width: 100%;
+    }
+    .div-1 {
+        display: block;
+        width: 100%;
+    }
+
+
+
+    .sec-2 {
+        width: 100%;
+    }
+    .div-4 {
+        display: block;
+    }
+    .div-6 {
+        background-color: #fff;
+    }
+    .div-6 a {
+        width: 50%;
+        margin-left: 20%;
+        border: 1px solid #DDDDE2;
+        border-radius: 10px;
+    }
+    .div-7 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .div-8 img {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer a {
+        display: block;
+    }
+
+    .div-17 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+}
